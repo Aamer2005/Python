@@ -1,0 +1,21 @@
+Hello World This is a data file 
+data is :
+| Mode  | Description                                             |
+| ----- | ------------------------------------------------------- |
+| `'r'` | Read (default); file must exist                         |
+| `'w'` | Write; creates file if not exists, overwrites if exists |
+| `'a'` | Append; adds content at end of file                     |
+| `'x'` | Create; creates a new file, error if it exists          |
+| `'b'` | Binary mode (e.g., `'rb'`, `'wb'`)                      |
+| `'t'` | Text mode (default, e.g., `'rt'`, `'wt'`)               |
+
+
+| Method          | Description               |
+| --------------- | ------------------------- |
+| `read()`        | Reads entire file         |
+| `readline()`    | Reads one line            |
+| `readlines()`   | Returns list of all lines |
+| `write(string)` | Writes a string           |
+| `writelines()`  | Writes a list of strings  |
+| `close()`       | Closes the file           |
+This is Last Line !!! Append Through File.py
